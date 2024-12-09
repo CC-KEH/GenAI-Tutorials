@@ -33,7 +33,6 @@ class Model:
             max_tokens=None,
             timeout=None,
             max_retries=2,
-            google_api_key="AIzaSyAz2nwZ-kmEHltU2c3BfEGBfQe4L41q-Fk",
         )
         self.prompt_template = ChatPromptTemplate.from_messages(
             [
